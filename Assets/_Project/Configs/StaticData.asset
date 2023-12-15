@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3ed857c96c42a0b09a1a21b62e7eaa, type: 3}
+  m_Name: StaticData
+  m_EditorClassIdentifier: 
+  WorldSize: 15
+  Hero:
+    Speed: 15
+    MainCharacterHealth: 20
+    ProjectileDamage: 2
+    ProjectileSpeed: 30
+    ProjectileCastCooldown: 0.35
+  Enemy:
+    MoveDistance: 1.5
+    MeleeAttackValue: 1
+    AttackCooldown: 1
+    EnemySpeed: 10
+    EnemyHealth: 10
+    AttackDistance: 1.5
+    StopTime: 0.3
+    SpawnCooldown: 4
